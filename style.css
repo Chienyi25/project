@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    align-items: center;
+}
+
+.Pro{
+    height: 600px;
+    width: 100%;
+background-image: url(./images/background.png);
+background-size: cover;
+background-position: center;
+}
+
+.Navs>a{
+    text-decoration: none;
+    color: white;
+}
+
+.Navs{
+    margin-right: 20px;
+    height: 100%;
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+
+.Content>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    margin-top: 50px;
+    border: 2px solid whitesmoke; 
+}
+
+.Name{
+    font-size: 45px;
+    color: white;
+    
+}
+
+.Occ{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.Content>p{
+    margin-top: 50px
+}
+
+.hon{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
